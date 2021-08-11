@@ -1,0 +1,29 @@
+// add elements to an array
+var lastBench = ['kalam', 'balam', 'salam'];
+lastBench.push('jalam');
+lastBench.push('palam');
+lastBench.push('nalam');
+// lastBench.push(55);
+// console.log(lastBench);
+
+var friendsAge = [11, 13, 17, 12];
+friendsAge.push(15);
+console.log(friendsAge);
+
+// remove an element from an array
+var lastItem = friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+// friendsAge.pop();
+console.log(friendsAge);
+console.log(lastItem);
+var firstItem = friendsAge.shift();
+console.log(friendsAge);
+console.log(firstItem);
+friendsAge.splice(1, 17);
+console.log(friendsAge);
